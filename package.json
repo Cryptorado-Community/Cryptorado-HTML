@@ -1,0 +1,29 @@
+{
+  "name": "Cryptorado",
+  "version": "1.0.0",
+  "description": "Home of the Cryptorado Community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "keywords": [
+    "Cryptorado",
+    "Colorado",
+    "Community",
+    "Decentralized",
+    "Development",
+    "Hackathon",
+    "Meetup",
+    "Events",
+    "Economics",
+    "Blockchain",
+    "IPFS",
+    "HTML"
+  ],
+  "author": "Dan Shields",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
