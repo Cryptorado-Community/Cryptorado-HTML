@@ -1,11 +1,14 @@
 {
   "name": "Cryptorado",
   "version": "1.0.0",
+  "license": "AGPL-3.0",
+  "author": "Cryptorado Community",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
   "description": "Home of the Cryptorado Community",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "live-server"
+    "dev": "live-server site/"
   },
   "keywords": [
     "Cryptorado",
@@ -20,10 +23,5 @@
     "Blockchain",
     "IPFS",
     "HTML"
-  ],
-  "author": "Dan Shields",
-  "license": "AGPL-3.0",
-  "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+  ]
 }
