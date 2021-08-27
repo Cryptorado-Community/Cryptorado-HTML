@@ -2,11 +2,7 @@
 
 ### Live at: https://cryptorado.org
 
-## Goal:
-
-A community run and maintained website that **anyone can host** and contribute to. It will be the place to go to find out what is going on in the Cryptorado & DLT community. Resources will be available to get connected, to learn, and to get involved in all that is going on.
-
-The site aims to be _static_ and _client side only compute (or integrated API calls for distributed compute)_ to enable one to completely own and manage their own data on the site, and are _incentivized_ to host and run operations related to the site. (see [Desired Architecture and Features]https://github.com/Cryptorado-Community/Cryptorado-Home(#desired-architecture-and-features))
+A community run and maintained website that **anyone can host** and contribute to. It is the place to find out what is going on in the Cryptorado & DLT community. Resources live here to connect, learn, and get involved in all that is going on in the community!
 
 ## Development
 
@@ -34,7 +30,7 @@ This site is hosted on [**IPFS**](https://ipfs.io) - it's content is pined to IP
 
 ## Architecture and Features:
 
-We desire a distributed content hosting and contribution model. So that the content is redundant, those using it support and validate all peers, and are able to add content to the peer network.
+The site aims to be _static_ and _client side only compute (or integrated API calls for distributed compute)_ to enable one to completely own and manage their own data on the site, and are _incentivized_ to host and run operations related to the site. (see [Desired Architecture and Features](https://github.com/Cryptorado-Community/Cryptorado-Quasar#desired-architecture-and-features) in the archived old version of the site)
 
 ### Static Website
 
