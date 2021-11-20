@@ -2,7 +2,9 @@
 
 ### Live at: https://cryptorado.org
 
-A community run and maintained website that **anyone can host** and contribute to. It is the place to find out what is going on in the Cryptorado & DLT community. Resources live here to connect, learn, and get involved in all that is going on in the community!
+A community run and maintained website that **anyone can host** and contribute to. It is the place
+to find out what is going on in the Cryptorado & DLT community. Resources live here to connect,
+learn, and get involved in all that is going on in the community!
 
 ## Development
 
@@ -13,34 +15,43 @@ This is a simple HTML site, no frameworks ;) .
 Open up the containing directory in a terminal and use the command:
 
 ```bash
-npm install
-npm run dev
+cd site
+npx live-server
 ```
 
-This will serve the website in your default browser on `127.0.0.1:8080` by default.
+This will serve the website in your default browser on `127.0.0.1:8080` by default and has
+live-reload on any file changes in `./site`.
 
 ### Deploy
 
-This site is hosted on [**IPFS**](https://ipfs.io) - it's content is pined to IPFS, and access it from any IPFS gateway or node, and redirect our domain name to point to the IPFS gateway, [this article](https://medium.com/@chrismatthieu/hosting-a-website-via-ipfs-for-free-afee39b84553) goes over how to do that.
+This site is hosted on [**IPFS**](https://ipfs.io) - it's content is pined to IPFS, and access it
+from any IPFS gateway or node, and redirect our domain name to point to the IPFS gateway,
+[this article](https://medium.com/@chrismatthieu/hosting-a-website-via-ipfs-for-free-afee39b84553)
+goes over how to do that.
 
-1. Pin the site working directory locally and on community node(s) with UnixFS style. _Do not wrap in folder to preserve name_
-2. Pin to hosting service(s) via CID or direct upload of the site working directory.
-3. Update DNS for new CID (dnsLink)
-4. Inform the community of new CID
+1. Pin the `./site` working directory locally and on community node(s) with UnixFS style.
+   _Do not wrap in folder to preserve name_!
+1. Pin to hosting service(s) via CID or direct upload of the site working directory.
+1. Update DNS for new CID (dnsLink)
+1. Inform the community of new CID
 
 ## Architecture and Features:
 
-The site aims to be _static_ and _client side only compute (or integrated API calls for distributed compute)_ to enable one to completely own and manage their own data on the site, and are _incentivized_ to host and run operations related to the site. (see [Desired Architecture and Features](https://github.com/Cryptorado-Community/Cryptorado-Quasar#desired-architecture-and-features) in the archived old version of the site)
+The site aims to be _static_ and _client side only compute (or integrated API calls for distributed
+compute)_ to enable one to completely own and manage their own data on the site, and are
+_incentivized_ to host and run operations related to the site. (see
+[Desired Architecture and Features](https://github.com/Cryptorado-Community/Cryptorado-Quasar#desired-architecture-and-features)
+in the archived old version of the site)
 
 ### Static Website
 
 Desire no server side compute needed. Everyone who hosts our resources can be a server and client.
 What does a static site model provide?
 
-- Optimized SEO
-- Lightning fast and light to host and load
-- Flat pages as database
-- Can be tracked in a Git repo - so history is maintained and easy to host among distributed peers
+-   Optimized SEO
+-   Lightning fast and light to host and load
+-   Flat pages as database
+-   Can be tracked in a Git repo - so history is maintained and easy to host among distributed peers
 
 #### Distributed Backend
 
@@ -48,11 +59,12 @@ API to dweb services to hold the events calendar (replace google) would be an aw
 
 ##### Self hosted site:
 
-Want a very easy onboarding process - just install and you are a host + node for all the community resources.
-To host the site under our own domain on IPFS, [this is pretty comprehensive](https://gist.github.com/claus/1287f47b5fbaaea338ac8a04d02bf258).
+Want a very easy onboarding process - just install and you are a host + node for all the community
+resources. To host the site under our own domain on IPFS,
+[this is pretty comprehensive](https://gist.github.com/claus/1287f47b5fbaaea338ac8a04d02bf258).
 
 ## Built with OSS
 
-- Site Template: `Directive by HTML5 UP` (html5up.net)
-- Icons: (iconfinder.com/)
-- Tooling: jQuery (jquery.com), Responsive Tools (github.com/ajlkn/responsive-tools)
+-   Site Template: `Directive by HTML5 UP` (html5up.net)
+-   Icons: (iconfinder.com/)
+-   Tooling: jQuery (jquery.com), Responsive Tools (github.com/ajlkn/responsive-tools)
