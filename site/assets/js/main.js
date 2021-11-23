@@ -42,6 +42,11 @@
 
 		}
 
+	// Change Header img for larger viewports. 
+	  if ($(window).width() > 980) {
+       $(".image").attr("src", "./images/cryptorado_banner.png");
+    }
+
 	// Menu.
 		var $menu = $('#menu');
 
